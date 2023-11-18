@@ -3,6 +3,7 @@ import { mitigaVpc } from "./vpc";
 import { privateSubnet1a, publicSubnet1a } from "./subnets";
 import { igw } from "./internetGateway";
 import { ngw } from "./natGateway";
+
 /////////////////////////// internet gateway ////////////////////
 const publicRouteTable = new RouteTable("public-route-table", {
     vpcId: mitigaVpc.id,

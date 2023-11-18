@@ -1,1 +1,2 @@
-![current-illustration](./images/current-illustration.png)
+# Current Architecture
+![current-illustration](./images/illustrations/illustration2.png)

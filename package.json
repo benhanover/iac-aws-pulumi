@@ -1,6 +1,6 @@
 {
     "name": "mitiga-aws-new",
-    "main": "index.ts",
+    "main": "infra/index.ts",
     "devDependencies": {
         "@types/node": "^16"
     },

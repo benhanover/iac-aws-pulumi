@@ -1,7 +1,6 @@
-import { Eip, NatGateway } from "@pulumi/aws/ec2";
+import { NatGateway } from "@pulumi/aws/ec2";
 import { publicSubnet1a } from "./subnets";
-
-const natEip = new Eip("nat-eip");
+import { natEip } from "./Eip's/natEip";
 
 const ngw = new NatGateway("nat-gateway", {
     allocationId: natEip.id,
